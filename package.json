@@ -1,0 +1,22 @@
+{
+  "name": "sketchtool",
+  "version": "1.0.0",
+  "description": "export with sketch tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-image-resize": "^0.13.0",
+    "gulp-sketch": "^1.0.5",
+    "gulp-svg-sprites": "^4.1.2",
+    "svgmin": "^0.1.0"
+  },
+  "dependencies": {
+    "gulp-svgmin": "^1.2.4"
+  }
+}
