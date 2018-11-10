@@ -6,7 +6,7 @@ var gulp = require('gulp'),
   svgSprite = require("gulp-svg-sprites");
 
 
-gulp.task('svg-slices', function (complete) {
+gulp.task('svg', function (complete) {
 
   del('./output/svg/**/**.*')
 
@@ -41,7 +41,7 @@ gulp.task('sprites', function () {
           formats: 'svg'
         }))
         .pipe(svgSprite())
-        .pipe(gulp.dest("assets"));
+        .pipe(gulp.dest("./output/assets"));
 });
 
 gulp.task('png-iphonex', function (complete) {
@@ -53,9 +53,9 @@ gulp.task('png-iphonex', function (complete) {
     }))
     .pipe(imageResize({
       width: 1125,
-      height: 1200,
+      height: 2436,
       crop: true,
-      gravity: "East",
+      gravity: "North",
       upscale: false
     }))
     .pipe(gulp.dest('./output/iphonex'));
