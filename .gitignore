@@ -5,3 +5,4 @@ output/
 input/**/*.sketch
 assets/
 *.sketch
+package-lock.json
