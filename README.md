@@ -42,7 +42,7 @@ They are performed on the sketchfiles in the './input'-folder.
 ### 1. Svg
 
 ```bash
-gulp svg-slices
+gulp svg
 ```
 Exports all **artboards** as cleaned svg. Attributes related to stroke and fill are removed so the exported svg can be styled via css.
 
