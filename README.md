@@ -32,14 +32,14 @@ npm install
 
 Currently there are four tasks possible
 
-1. svg-slices
+1. svg
 2. sprites
 3. png-iphonex
 4. png
 
 They are performed on the sketchfiles in the './input'-folder.
 
-### 1. Svg-slices
+### 1. Svg
 
 ```bash
 gulp svg-slices
