@@ -44,24 +44,24 @@ They are performed on the sketchfiles in the './input'-folder.
 ```bash
 gulp svg-slices
 ```
-Exports all *artboards* as cleaned svg. Attributes related to stroke and fill are removed so the exported svg can be styled via css.
+Exports all **artboards** as cleaned svg. Attributes related to stroke and fill are removed so the exported svg can be styled via css.
 
 ### 2. Sprites
 
 ```bash
 gulp sprites
 ```
-Exports all *artboards* and creates a sprite and demo files on how to use the result.
+Exports all **artboards** and creates a sprite and demo files on how to use the result.
 
 ### 3. png-iphonex
 
-Exports all artboards scaled to the width of 1125px and cropped to 2436px
+Exports all **artboards** scaled to the width of 1125px and cropped to 2436px
 ```bash
 gulp png-iphonex
 ```
 
 ### 4. png
-Exports all *slices* @2x as png 
+Exports all **slices** @2x as png 
 ```bash
 gulp png
 ```
