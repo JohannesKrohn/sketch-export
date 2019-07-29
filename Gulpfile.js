@@ -70,17 +70,7 @@ gulp.task('sprites', function () {
                 done();
             }
         }))
-        .pipe(cheerio({
-            run: function ($) {
-                $('path, rect, circle').attr('fill', $fill);
-                $('svg').append('<rect fill="none" class="icon-area" x="0" y="0" width="48" height="48"/>');
-
-            },
-            parserOptions: {
-                xmlMode: true
-            }
-        }))
-        .pipe(svgSprite()).on('error', function(error){ console.log(error); })
+        .pipe(svgSprite(config)).on('error', function(error){ console.log(error); })
         .pipe(gulp.dest("./output/assets"));
 });
 
