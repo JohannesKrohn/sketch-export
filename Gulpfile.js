@@ -5,7 +5,7 @@ var gulp = require('gulp'),
     del = require('del'),
     imageResize = require('gulp-image-resize'),
     svgSprite = require("gulp-svg-sprites"),
-    $fill = "#EA1C0A";
+    $fill = "#39393A";
 config = {
     mode: {
         view: { // Activate the «view» mode
@@ -35,7 +35,7 @@ gulp.task('svg', function (complete) {
 
                 {
                     removeAttrs: {
-                        attrs: ['stroke.*', 'fill', 'id', 'class']
+                        attrs: ['stroke.*', 'fill']
                     }
 
                 }, {
@@ -47,11 +47,17 @@ gulp.task('svg', function (complete) {
                 }
             ]
         })) //svgo
-        .pipe(svgo({
-            js2svg: {
-                pretty: true
-            } //js2svg
-        }))
+        .pipe(cheerio({
+            run: function ($) {
+                // $('path, rect, circle').attr('fill', $fill);
+                // $('svg').append('<rect fill="none" class="icon-area" x="0" y="0" width="48" height="48"/>');
+                $('path, rect, circle').addClass('icon');
+
+            },
+            parserOptions: {
+                xmlMode: true
+            }
+        }))//cheerio
         .pipe(gulp.dest('./output/svg/'));
     complete();
 });
