@@ -6,6 +6,7 @@ var gulp = require('gulp'),
     imageResize = require('gulp-image-resize'),
     svgSprite = require("gulp-svg-sprites"),
     $fill1 = "#ffffff",
+    $fill = "#39393A",
     $fill2 = "#39393a";
 config = {
     mode: {
@@ -40,6 +41,9 @@ gulp.task('svgNoFill', function (complete) {
                     }
 
                 }, {
+                    removeViewBox: false
+                },
+                {
                     removeTitle: true
                 }, {
                     collapseGroups: true
@@ -57,11 +61,11 @@ gulp.task('svgNoFill', function (complete) {
                 done();
             }
         }))//cheerio
-        .pipe(svgo({
-            js2svg: {
-                pretty: true
-            } //js2svg
-        }))
+        // .pipe(svgo({
+        //     js2svg: {
+        //         pretty: true
+        //     } //js2svg
+        // }))
         .pipe(gulp.dest('./output/svg/nofill/'));
     complete();
 });// SVG No fill
@@ -88,6 +92,9 @@ gulp.task('svgWhite', function (complete) {
                     }
 
                 }, {
+                    removeViewBox: false
+                },
+                {
                     removeTitle: true
                 }, {
                     collapseGroups: true
@@ -106,11 +113,11 @@ gulp.task('svgWhite', function (complete) {
                 done();
             }
         }))//cheerio
-        .pipe(svgo({
-            js2svg: {
-                pretty: true
-            } //js2svg
-        }))
+        // .pipe(svgo({
+        //     js2svg: {
+        //         pretty: true
+        //     } //js2svg
+        // }))
         .pipe(gulp.dest('./output/svg/fillWhite/'));
     complete();
 });// SVG White
@@ -136,6 +143,9 @@ gulp.task('svgDarkgrey', function (complete) {
                     }
 
                 }, {
+                    removeViewBox: false
+                },
+                {
                     removeTitle: true
                 }, {
                     collapseGroups: true
@@ -154,11 +164,11 @@ gulp.task('svgDarkgrey', function (complete) {
                 done();
             }
         }))//cheerio
-        .pipe(svgo({
-            js2svg: {
-                pretty: true
-            } //js2svg
-        }))
+        // .pipe(svgo({
+        //     js2svg: {
+        //         pretty: true
+        //     } //js2svg
+        // }))
         .pipe(gulp.dest('./output/svg/fillDarkgrey/'));
     complete();
 });// SVG White
@@ -181,6 +191,9 @@ gulp.task('sketchSVG', function (complete) {
             plugins: [
 
                {
+                    removeViewBox: false
+                },
+                {
                     removeTitle: true
                 }, {
                     collapseGroups: true
