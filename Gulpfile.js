@@ -261,3 +261,72 @@ gulp.task('png', function (complete) {
 
     complete();
 });
+
+
+gulp.task('svgAll', function (complete) {
+
+    del('./output/svg/**/*.*')
+
+    return gulp.src('./input/*.sketch')
+        .pipe(sketch({
+            export: 'slices',
+            formats: 'svg'
+        }))
+        .pipe(svgo({
+            js2svg: {
+                pretty: true
+            }, //js2svg
+            plugins: [
+
+                {
+                    removeAttrs: {
+                        attrs: ['stroke.*', 'fill', 'id', 'class']
+                    }
+
+                }, {
+                    removeViewBox: false
+                },
+                {
+                    removeTitle: true
+                }, {
+                    collapseGroups: true
+                }, {
+                    removeStyleElement: true
+                }
+            ]
+        })) //svgo
+        .pipe(cheerio({
+            parserOptions: { xmlMode: true },
+            run: ($, file, done) => {
+                $('[fill]').removeAttr('fill');
+                $('[stroke]').removeAttr('stroke');
+                $('[style]').removeAttr('style');
+                done();
+            }
+        }))//cheerio
+        .pipe(gulp.dest('./output/svg/nofill/'))
+        .pipe(cheerio({
+                    parserOptions: { xmlMode: true },
+                    run: ($, file, done) => {
+                        $('[fill]').removeAttr('fill');
+                        $('[stroke]').removeAttr('stroke');
+                        $('[style]').removeAttr('style');
+                        $('path, rect, circle').attr('fill', $fill1);
+                        done();
+                    }
+                }))//cheerio
+        .pipe(gulp.dest('./output/svg/fillWhite/'))
+        .pipe(cheerio({
+                parserOptions: { xmlMode: true },
+                run: ($, file, done) => {
+                    $('[fill]').removeAttr('fill');
+                    $('[stroke]').removeAttr('stroke');
+                    $('[style]').removeAttr('style');
+                    $('path, rect, circle').attr('fill', $fill2);
+                    done();
+                }
+            }))//cheerio
+                .pipe(gulp.dest('./output/svg/fillDarkgrey/'));
+
+    complete();
+});// SVG White
