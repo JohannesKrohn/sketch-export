@@ -5,7 +5,7 @@ var gulp = require('gulp'),
     del = require('del'),
     imageResize = require('gulp-image-resize'),
     svgSprite = require("gulp-svg-sprites"),
-    $fill1 = "#ffffff",
+    $fill1 = "#EA1B0A",
     $fill = "#39393A",
     $fill2 = "#39393a";
 config = {
@@ -53,7 +53,7 @@ gulp.task('svgNoFill', function (complete) {
             ]
         })) //svgo
         .pipe(cheerio({
-            parserOptions: { xmlMode: true },
+            parserOptions: {xmlMode: true},
             run: ($, file, done) => {
                 $('[fill]').removeAttr('fill');
                 $('[stroke]').removeAttr('stroke');
@@ -104,7 +104,7 @@ gulp.task('svgWhite', function (complete) {
             ]
         })) //svgo
         .pipe(cheerio({
-            parserOptions: { xmlMode: true },
+            parserOptions: {xmlMode: true},
             run: ($, file, done) => {
                 $('[fill]').removeAttr('fill');
                 $('[stroke]').removeAttr('stroke');
@@ -155,7 +155,7 @@ gulp.task('svgDarkgrey', function (complete) {
             ]
         })) //svgo
         .pipe(cheerio({
-            parserOptions: { xmlMode: true },
+            parserOptions: {xmlMode: true},
             run: ($, file, done) => {
                 $('[fill]').removeAttr('fill');
                 $('[stroke]').removeAttr('stroke');
@@ -174,7 +174,6 @@ gulp.task('svgDarkgrey', function (complete) {
 });// SVG White
 
 
-
 gulp.task('sketchSVG', function (complete) {
 
     del('./output/**/**.*')
@@ -190,7 +189,7 @@ gulp.task('sketchSVG', function (complete) {
             }, //js2svg
             plugins: [
 
-               {
+                {
                     removeViewBox: false
                 },
                 {
@@ -207,28 +206,14 @@ gulp.task('sketchSVG', function (complete) {
         }))
         .pipe(gulp.dest('./output/sketch/'));
     complete();
-});// SVG No fill
-
-
-
+});// sketch
 
 
 gulp.task('sprites', function () {
-    return gulp.src('./input/*.sketch')
-        .pipe(sketch({
-            export: 'slices',
-            formats: 'svg'
-        }))
-        .pipe(cheerio({
-            parserOptions: { xmlMode: true },
-            run: ($, file, done) => {
-                $('[fill]').removeAttr('fill',$fill);
-                $('[stroke]').removeAttr('stroke');
-                $('[style]').removeAttr('style');
-                done();
-            }
-        }))//cheerio
-        .pipe(svgSprite(config)).on('error', function(error){ console.log(error); })
+    return gulp.src('./output/svg/fillWhite/32px/**/*.svg')
+        .pipe(svgSprite(config)).on('error', function (error) {
+            console.log(error);
+        })
         .pipe(gulp.dest("./output/assets"));
 });
 
@@ -270,7 +255,8 @@ gulp.task('svgAll', function (complete) {
     return gulp.src('./input/*.sketch')
         .pipe(sketch({
             export: 'slices',
-            formats: 'svg'
+            formats: 'svg',
+            maxSize: '4',
         }))
         .pipe(svgo({
             js2svg: {
@@ -285,6 +271,10 @@ gulp.task('svgAll', function (complete) {
 
                 }, {
                     removeViewBox: false
+                }, {
+                    cleanupNumericValues: {
+                        floatPrecision: 4
+                    }
                 },
                 {
                     removeTitle: true
@@ -296,7 +286,7 @@ gulp.task('svgAll', function (complete) {
             ]
         })) //svgo
         .pipe(cheerio({
-            parserOptions: { xmlMode: true },
+            parserOptions: {xmlMode: true},
             run: ($, file, done) => {
                 $('[fill]').removeAttr('fill');
                 $('[stroke]').removeAttr('stroke');
@@ -306,27 +296,27 @@ gulp.task('svgAll', function (complete) {
         }))//cheerio
         .pipe(gulp.dest('./output/svg/nofill/'))
         .pipe(cheerio({
-                    parserOptions: { xmlMode: true },
-                    run: ($, file, done) => {
-                        $('[fill]').removeAttr('fill');
-                        $('[stroke]').removeAttr('stroke');
-                        $('[style]').removeAttr('style');
-                        $('path, rect, circle').attr('fill', $fill1);
-                        done();
-                    }
-                }))//cheerio
+            parserOptions: {xmlMode: true},
+            run: ($, file, done) => {
+                $('[fill]').removeAttr('fill');
+                $('[stroke]').removeAttr('stroke');
+                $('[style]').removeAttr('style');
+                $('path, rect, circle').attr('fill', $fill1);
+                done();
+            }
+        }))//cheerio
         .pipe(gulp.dest('./output/svg/fillWhite/'))
         .pipe(cheerio({
-                parserOptions: { xmlMode: true },
-                run: ($, file, done) => {
-                    $('[fill]').removeAttr('fill');
-                    $('[stroke]').removeAttr('stroke');
-                    $('[style]').removeAttr('style');
-                    $('path, rect, circle').attr('fill', $fill2);
-                    done();
-                }
-            }))//cheerio
-                .pipe(gulp.dest('./output/svg/fillDarkgrey/'));
+            parserOptions: {xmlMode: true},
+            run: ($, file, done) => {
+                $('[fill]').removeAttr('fill');
+                $('[stroke]').removeAttr('stroke');
+                $('[style]').removeAttr('style');
+                $('path, rect, circle').attr('fill', $fill2);
+                done();
+            }
+        }))//cheerio
+        .pipe(gulp.dest('./output/svg/fillDarkgrey/'));
 
     complete();
 });// SVG White
