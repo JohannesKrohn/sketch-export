@@ -37,7 +37,7 @@ gulp.task('svgNoFill', function (complete) {
 
                 {
                     removeAttrs: {
-                        attrs: ['stroke.*', 'fill']
+                        attrs: ['stroke', 'fill']
                     }
 
                 }, {
