@@ -176,7 +176,7 @@ gulp.task('svgDarkgrey', function (complete) {
 
 gulp.task('sketchSVG', function (complete) {
 
-    del('./output/**/**.*')
+    del('./output/sketch/**/*')
 
     return gulp.src('./input/*.sketch')
         .pipe(sketch({
@@ -199,18 +199,13 @@ gulp.task('sketchSVG', function (complete) {
                 }
             ]
         })) //svgo
-        .pipe(svgo({
-            js2svg: {
-                pretty: true
-            } //js2svg
-        }))
         .pipe(gulp.dest('./output/sketch/'));
     complete();
 });// sketch
 
 
 gulp.task('sprites', function () {
-    return gulp.src('./output/svg/fillWhite/32px/**/*.svg')
+    return gulp.src('./output/svg/fillWhite/32/**/*.svg')
         .pipe(svgSprite(config)).on('error', function (error) {
             console.log(error);
         })
@@ -250,7 +245,7 @@ gulp.task('png', function (complete) {
 
 gulp.task('svgAll', function (complete) {
 
-    del('./output/svg/**/*.*')
+    del('./output/svg/**/*')
 
     return gulp.src('./input/*.sketch')
         .pipe(sketch({
