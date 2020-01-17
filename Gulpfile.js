@@ -205,7 +205,7 @@ gulp.task('sketchSVG', function (complete) {
 
 
 gulp.task('sprites', function () {
-    return gulp.src('./output/svg/fillWhite/32/**/*.svg')
+    return gulp.src('./output/svg/nofill/32/**/*.svg')
         .pipe(svgSprite(config)).on('error', function (error) {
             console.log(error);
         })
