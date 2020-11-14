@@ -1,24 +1,36 @@
-var gulp = require('gulp'),
+const gulp = require('gulp'),
     sketch = require('gulp-sketch'),
     svgo = require('gulp-svgo'),
     cheerio = require('gulp-cheerio'),
     del = require('del'),
     imageResize = require('gulp-image-resize'),
-    svgSprite = require("gulp-svg-sprites"),
-    $fill1 = "#EA1B0A",
-    $fill = "#39393A",
+    svgSprite = require("gulp-svg-sprite"),
+    gulpsvgtojsontoscss = require('gulp-svg-to-json-to-scss'),
+    svgmin = require('gulp-svgmin'),
+    $fill1 = "#fff",
+    $fill3 = "#39393A",
+    $fillRed = "#EA1B0A",
     $fill2 = "#39393a";
-config = {
-    mode: {
-        view: { // Activate the «view» mode
-            bust: false,
-            render: {
-                scss: true // Activate Sass output (with default options)
-            }
-        },
-        symbol: true // Activate the «symbol» mode
+const svgoSettings = [
+
+    // {
+    //     removeAttrs: {
+    //         attrs: ['stroke', 'fill']
+    //     }
+    //
+    // },
+    {
+        removeViewBox: false
     }
-};
+    // ,
+    // {
+    //     removeTitle: true
+    // }, {
+    //     collapseGroups: true
+    // }, {
+    //     removeStyleElement: true
+    // }
+];
 
 gulp.task('svgNoFill', function (complete) {
 
@@ -30,37 +42,17 @@ gulp.task('svgNoFill', function (complete) {
             formats: 'svg'
         }))
         .pipe(svgo({
-            js2svg: {
-                pretty: true
-            }, //js2svg
-            plugins: [
-
-                {
-                    removeAttrs: {
-                        attrs: ['stroke', 'fill']
-                    }
-
-                }, {
-                    removeViewBox: false
-                },
-                {
-                    removeTitle: true
-                }, {
-                    collapseGroups: true
-                }, {
-                    removeStyleElement: true
-                }
-            ]
+            plugins: svgoSettings
         })) //svgo
-        .pipe(cheerio({
-            parserOptions: {xmlMode: true},
-            run: ($, file, done) => {
-                $('[fill]').removeAttr('fill');
-                $('[stroke]').removeAttr('stroke');
-                $('[style]').removeAttr('style');
-                done();
-            }
-        }))//cheerio
+        // .pipe(cheerio({
+        //     parserOptions: {xmlMode: true},
+        //     run: ($, file, done) => {
+        //         $('[fill]').removeAttr('fill');
+        //         $('[stroke]').removeAttr('stroke');
+        //         $('[style]').removeAttr('style');
+        //         done();
+        //     }
+        // }))//cheerio
         // .pipe(svgo({
         //     js2svg: {
         //         pretty: true
@@ -203,20 +195,28 @@ gulp.task('sketchSVG', function (complete) {
     complete();
 });// sketch
 
+const spriteConfig = {
+    log: true,
+    mode: {
+        css: true, // Create a «css» sprite
+        view: true, // Create a «view» sprite
+        defs: true, // Create a «defs» sprite
+        symbol: true, // Create a «symbol» sprite
+        stack: true // Create a «stack» sprite
+    }
+};
 
 gulp.task('sprites', function () {
-    return gulp.src('./output/svg/nofill/32/**/*.svg')
-        .pipe(svgSprite(config)).on('error', function (error) {
-            console.log(error);
-        })
-        .pipe(gulp.dest("./output/assets"));
+    return gulp.src('./output/svg/nofill/pictograms/no_container/*.svg')
+        .pipe(svgSprite(spriteConfig))
+        .pipe(gulp.dest("./output/sprites/"));
 });
 
-gulp.task('png-iphonex', function (complete) {
+gulp.task('png-artboards-iphonex', function (complete) {
     return gulp.src('./input/*.sketch')
         .pipe(sketch({
             export: 'artboards',
-            formats: 'png',
+            formats: 'png-artboards',
             scales: 4.0
         }))
         .pipe(imageResize({
@@ -230,14 +230,14 @@ gulp.task('png-iphonex', function (complete) {
 
     complete();
 });
-gulp.task('png', function (complete) {
-    return gulp.src('./input/*.sketch')
+gulp.task('png-artboards', function (complete) {
+    return gulp.src('./input/png-artboards/*.sketch')
         .pipe(sketch({
-            export: 'slices',
-            formats: 'png',
-            scales: 2.0
+            export: 'artboards',
+            formats: 'png-artboards',
+            scales: 1.0
         }))
-        .pipe(gulp.dest('./output/png'));
+        .pipe(gulp.dest('./output/png-artboards'));
 
     complete();
 });
@@ -251,7 +251,6 @@ gulp.task('svgAll', function (complete) {
         .pipe(sketch({
             export: 'slices',
             formats: 'svg',
-            maxSize: '4',
         }))
         .pipe(svgo({
             js2svg: {
@@ -307,6 +306,17 @@ gulp.task('svgAll', function (complete) {
                 $('[fill]').removeAttr('fill');
                 $('[stroke]').removeAttr('stroke');
                 $('[style]').removeAttr('style');
+                $('path, rect, circle').attr('fill', $fillRed);
+                done();
+            }
+        }))//cheerio
+        .pipe(gulp.dest('./output/svg/fillRed/'))
+        .pipe(cheerio({
+            parserOptions: {xmlMode: true},
+            run: ($, file, done) => {
+                $('[fill]').removeAttr('fill');
+                $('[stroke]').removeAttr('stroke');
+                $('[style]').removeAttr('style');
                 $('path, rect, circle').attr('fill', $fill2);
                 done();
             }
@@ -315,3 +325,54 @@ gulp.task('svgAll', function (complete) {
 
     complete();
 });// SVG White
+
+gulp.task('json', function () {
+    return gulp.src('./output/svg/nofill/icon/no_container/**/*.svg')
+        .pipe(gulpsvgtojsontoscss({
+            jsonFile: 'images.json',
+            scssFile: '_images.scss',
+            basePath: "./images",
+            noExt: true,
+            delim: "_"
+        }))
+        .pipe(gulp.dest('./output/svgtxt/'));
+});
+gulp.task('cleanup', function () {
+    return gulp.src('./input/svg/**/*.svg')
+        .pipe(svgmin({
+            plugins: [{
+                removeViewBox: false
+            }, {
+                removeComments: false
+            }, {
+                cleanupNumericValues: {
+                    floatPrecision: 4
+                }
+
+            }]
+        }))
+        .pipe(cheerio({
+            parserOptions: {xmlMode: true},
+            run: ($, file, done) => {
+                $('[fill]').removeAttr('fill');
+                $('[stroke]').removeAttr('stroke');
+                $('[style]').removeAttr('style');
+                done();
+            }
+        }))//cheerio
+        .pipe(gulp.dest('./output/cleanup/svg/fill-no-fill/'))
+        .pipe(cheerio({
+                parserOptions: {xmlMode: true},
+                run: ($, file, done) => {
+                    $('[fill]').removeAttr('fill');
+                    $('[stroke]').removeAttr('stroke');
+                    $('[style]').removeAttr('style');
+                    $('path, rect, circle').attr('fill', $fillRed);
+                    done();
+                }
+            }))//cheerio
+        .pipe(gulp.dest('./output/cleanup/svg/fill-red/'));
+
+    complete();
+
+});
