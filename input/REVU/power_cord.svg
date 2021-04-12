@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>power_cord</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="184-power-cord" fill="#000000" fill-rule="nonzero">
+            <polygon id="Path" points="30 8.828 27.172 6 21.586 11.586 18.414 8.414 24 2.828 21.172 0 15.586 5.586 12 2 9.292 4.706 25.292 20.706 28 18 24.414 14.414"></polygon>
+            <path d="M22.814,21.056 L8.944,7.186 C5.95,10.776 2.552,16.326 4.9,21.1 L0.768,25.232 C-0.204,26.204 -0.204,27.796 0.768,28.768 L1.232,29.232 C2.204,30.204 3.796,30.204 4.768,29.232 L8.9,25.1 C13.674,27.448 19.222,24.052 22.814,21.056 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

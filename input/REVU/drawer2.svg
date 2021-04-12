@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="22px" viewBox="0 0 32 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>drawer2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="094-drawer2" fill="#000000" fill-rule="nonzero">
+            <path d="M31.78,10.376 L23.78,0.376 C23.59,0.138 23.302,1.77635684e-15 23,1.77635684e-15 L9,1.77635684e-15 C8.696,1.77635684e-15 8.408,0.138 8.22,0.376 L0.22,10.376 C0.078,10.554 6.38378239e-16,10.774 6.38378239e-16,11 L6.38378239e-16,20 C6.38378239e-16,21.104 0.896,22 2,22 L30,22 C31.104,22 32,21.104 32,20 L32,11 C32,10.772 31.922,10.552 31.78,10.376 Z M30,12 L23,12 L19,16 L13,16 L9,12 L2,12 L2,11.35 L9.48,2 L22.518,2 L29.998,11.35 L29.998,12 L30,12 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

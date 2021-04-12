@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sigma</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="360-sigma" fill="#000000" fill-rule="nonzero">
+            <path d="M29.426,22.96 L30.814,20 L32.002,20 L30.002,32 L0.002,32 L0.002,29.68 L10.362,17.454 L0.002,7.094 L0.002,8.8817842e-16 L30.628,8.8817842e-16 L32.004,8 L30.93,8 L30.344,6.786 C29.24,4.494 28.41,4 26.004,4 L5.316,4 L16.35,15.032 L7.056,25.998 L24.004,25.998 C27.63,25.998 28.586,24.698 29.43,22.958 L29.426,22.96 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

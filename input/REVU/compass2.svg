@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>compass2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="075-compass2" fill="#000000" fill-rule="nonzero">
+            <path d="M16,0 C7.164,0 0,7.164 0,16 C0,24.836 7.164,32 16,32 C24.836,32 32,24.836 32,16 C32,7.164 24.836,0 16,0 Z M3,16 C3,8.82 8.82,3 16,3 C19.424,3 22.538,4.324 24.86,6.488 L12,12 L6.488,24.86 C4.324,22.538 3,19.424 3,16 Z M18.286,18.286 L10.284,21.716 L13.714,13.714 L18.286,18.286 Z M16,29 C12.576,29 9.462,27.676 7.14,25.512 L20,20 L25.512,7.14 C27.676,9.462 29,12.576 29,16 C29,23.18 23.18,29 16,29 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

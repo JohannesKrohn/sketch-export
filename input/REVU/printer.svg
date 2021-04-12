@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="28px" viewBox="0 0 32 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>printer</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="085-printer" fill="#000000" fill-rule="nonzero">
+            <polygon id="Path" points="8 0 24 0 24 4 8 4"></polygon>
+            <path d="M30,6 L2,6 C0.9,6 0,6.9 0,8 L0,18 C0,19.1 0.9,20 2,20 L8,20 L8,28 L24,28 L24,20 L30,20 C31.1,20 32,19.1 32,18 L32,8 C32,6.9 31.1,6 30,6 Z M4,12 C2.896,12 2,11.104 2,10 C2,8.896 2.896,8 4,8 C5.104,8 6,8.896 6,10 C6,11.104 5.104,12 4,12 Z M22,26 L10,26 L10,16 L22,16 L22,26 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

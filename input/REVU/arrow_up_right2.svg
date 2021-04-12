@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow_up_right2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="316-arrow-up-right2" fill="#000000" fill-rule="nonzero">
+            <path d="M3.414,23.414 L20,6.828 L20,14 C20,15.104 20.896,16 22,16 C23.104,16 24,15.104 24,14 L24,2 C24,1.192 23.512,0.462 22.766,0.152 C22.518,0.05 22.258,3.55271368e-15 22,3.55271368e-15 L22,-0.002 L10,-0.002 C8.896,-0.002 8,0.894 8,1.998 C8,3.102 8.896,3.998 10,3.998 L17.172,3.998 L0.586,20.584 C0.196,20.974 1.77635684e-15,21.486 1.77635684e-15,21.998 C1.77635684e-15,22.51 0.196,23.022 0.586,23.412 C1.366,24.194 2.634,24.194 3.414,23.412 L3.414,23.414 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

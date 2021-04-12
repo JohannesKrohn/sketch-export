@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="32px" viewBox="0 0 29 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pacman</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="023-pacman" fill="#000000" fill-rule="nonzero">
+            <path d="M28.148,5.588 C25.214,2.168 20.86,0 16,0 C7.164,0 0,7.164 0,16 C0,24.836 7.164,32 16,32 C20.86,32 25.214,29.832 28.148,26.412 L18,16 L28.148,5.588 Z M20,3.768 C21.232,3.768 22.232,4.766 22.232,6 C22.232,7.234 21.234,8.232 20,8.232 C18.766,8.232 17.768,7.234 17.768,6 C17.768,4.768 18.766,3.768 20,3.768 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

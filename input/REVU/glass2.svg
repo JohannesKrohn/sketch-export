@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="28px" viewBox="0 0 24 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>glass2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="162-glass2" fill="#000000" fill-rule="nonzero">
+            <path d="M23.786,1.618 C24.022,1.316 24.066,0.908 23.9,0.564 C23.734,0.22 23.384,0.002 23,0.002 L1,0.002 C0.618,0.002 0.268,0.22 0.1,0.564 C-0.068,0.908 -0.024,1.318 0.214,1.618 L10,14.074 L10,26 L7,26 C6.448,26 6,26.448 6,27 C6,27.552 6.448,28 7,28 L17,28 C17.552,28 18,27.552 18,27 C18,26.448 17.552,26 17,26 L14,26 L14,14.074 L23.786,1.618 Z M20.942,2 L17.8,6 L6.2,6 L3.058,2 L20.944,2 L20.942,2 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="32px" viewBox="0 0 28 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>address_book</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="069-address-book" fill="#000000" fill-rule="nonzero">
+            <path d="M4,0 L4,32 L28,32 L28,0 L4,0 Z M16,8.01 C18.204,8.01 19.99,9.796 19.99,12 C19.99,14.204 18.204,15.99 16,15.99 C13.796,15.99 12.01,14.204 12.01,12 C12.01,9.796 13.796,8.01 16,8.01 L16,8.01 Z M22,24 L10,24 L10,22 C10,19.79 11.79,18 14,18 L14,18 L18,18 C20.21,18 22,19.79 22,22 L22,24 Z" id="Shape"></path>
+            <polygon id="Path" points="0 2 3 2 3 8 0 8"></polygon>
+            <polygon id="Path" points="0 10 3 10 3 16 0 16"></polygon>
+            <polygon id="Path" points="0 18 3 18 3 24 0 24"></polygon>
+            <polygon id="Path" points="0 26 3 26 3 32 0 32"></polygon>
+        </g>
+    </g>
+</svg>

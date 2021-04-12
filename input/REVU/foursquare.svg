@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="28px" viewBox="0 0 23 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>foursquare</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="471-foursquare" fill="#000000" fill-rule="nonzero">
+            <path d="M22.612,0.816 C22.236,0.304 21.636,0 21,0 L2,0 C0.896,0 0,0.896 0,2 L0,26 C0,26.808 0.488,27.538 1.234,27.848 C1.482,27.95 1.742,28 1.998,28 C2.518,28 3.03,27.796 3.412,27.414 L10.826,20 L15.998,20 C16.872,20 17.646,19.432 17.906,18.596 L22.906,2.596 C23.096,1.988 22.986,1.328 22.608,0.814 L22.612,0.816 Z M17.03,8 L10,8 C8.896,8 8,8.896 8,10 C8,11.104 8.896,12 10,12 L15.78,12 L14.53,16 L10,16 C9.47,16 8.96,16.21 8.586,16.586 L4,21.172 L4,4 L18.28,4 L17.03,8 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="28px" viewBox="0 0 33 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>history</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="078-history" fill="#000000" fill-rule="nonzero">
+            <path d="M19,0 C26.732,0 33,6.268 33,14 C33,21.732 26.732,28 19,28 L19,25 C21.938,25 24.7,23.856 26.778,21.778 C28.856,19.7 30,16.938 30,14 C30,11.062 28.856,8.3 26.778,6.222 C24.7,4.144 21.938,3 19,3 C16.062,3 13.3,4.144 11.222,6.222 C9.624,7.82 8.578,9.824 8.182,12 L14,12 L7,20 L0,12 L5.142,12 C6.112,5.216 11.946,0 19,0 Z M25,12 L25,16 L17,16 L17,6 L21,6 L21,12 L25,12 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

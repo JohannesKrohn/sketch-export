@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="28px" viewBox="0 0 32 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>volume_increase</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="300-volume-increase" fill="#000000" fill-rule="nonzero">
+            <polygon id="Path" points="32 16 26 16 26 22 22 22 22 16 16 16 16 12 22 12 22 6 26 6 26 12 32 12"></polygon>
+            <path d="M13,28 C12.74,28 12.484,27.898 12.292,27.708 L4.584,20 L0.998,20 C0.446,20 -0.002,19.552 -0.002,19 L-0.002,9 C-0.002,8.448 0.446,8 0.998,8 L4.584,8 L12.292,0.292 C12.578,0.006 13.008,-0.08 13.382,0.076 C13.756,0.232 14,0.596 14,1 L14,27 C14,27.404 13.756,27.77 13.382,27.924 C13.258,27.976 13.128,28 13,28 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

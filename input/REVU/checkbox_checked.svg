@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>checkbox_checked</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="339-checkbox-checked" fill="#000000" fill-rule="nonzero">
+            <path d="M28,0 L4,0 C1.8,0 0,1.8 0,4 L0,28 C0,30.2 1.8,32 4,32 L28,32 C30.2,32 32,30.2 32,28 L32,4 C32,1.8 30.2,0 28,0 Z M14,24.828 L6.586,17.414 L9.414,14.586 L14,19.172 L23.586,9.586 L26.414,12.414 L14,24.828 L14,24.828 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

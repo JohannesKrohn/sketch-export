@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="30px" viewBox="0 0 32 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>paint_format</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="013-paint-format" fill="#000000" fill-rule="nonzero">
+            <path d="M32,16 L32,4 L26,4 L26,2 C26,0.9 25.1,0 24,0 L2,0 C0.9,0 0,0.9 0,2 L0,8 C0,9.1 0.9,10 2,10 L24,10 C25.1,10 26,9.1 26,8 L26,6 L30,6 L30,14 L12,14 L12,18 L11,18 C10.448,18 10,18.448 10,19 L10,29 C10,29.552 10.448,30 11,30 L15,30 C15.552,30 16,29.552 16,29 L16,19 C16,18.448 15.552,18 15,18 L14,18 L14,16 L32,16 Z M24,4 L2,4 L2,2 L24,2 L24,4 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

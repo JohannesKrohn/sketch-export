@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>list2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="188-list2" fill="#000000" fill-rule="nonzero">
+            <path d="M12,2 L32,2 L32,6 L12,6 L12,2 Z M12,14 L32,14 L32,18 L12,18 L12,14 Z M12,26 L32,26 L32,30 L12,30 L12,26 Z M0,4 C0,1.79 1.79,0 4,0 C6.21,0 8,1.79 8,4 C8,6.21 6.21,8 4,8 C1.79,8 0,6.21 0,4 Z M0,16 C0,13.79 1.79,12 4,12 C6.21,12 8,13.79 8,16 C8,18.21 6.21,20 4,20 C1.79,20 0,18.21 0,16 Z M0,28 C0,25.79 1.79,24 4,24 C6.21,24 8,25.79 8,28 C8,30.21 6.21,32 4,32 C1.79,32 0,30.21 0,28 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

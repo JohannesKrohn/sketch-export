@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="28px" viewBox="0 0 32 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>terminal</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="386-terminal" fill="#000000" fill-rule="nonzero">
+            <path d="M0,0 L0,28 L32,28 L32,0 L0,0 Z M30,26 L2,26 L2,2 L30,2 L30,26 Z M28,4 L4,4 L4,24 L28,24 L28,4 Z M14,14 L12,14 L12,16 L10,16 L10,18 L8,18 L8,16 L10,16 L10,14 L12,14 L12,12 L10,12 L10,10 L8,10 L8,8 L10,8 L10,10 L12,10 L12,12 L14,12 L14,14 Z M22,18 L16,18 L16,16 L22,16 L22,18 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

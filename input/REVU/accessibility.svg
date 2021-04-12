@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="32px" viewBox="0 0 30 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>accessibility</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="179-accessibility" fill="#000000" fill-rule="nonzero">
+            <path d="M12,3 C12,1.344 13.344,0 15,0 C16.656,0 18,1.344 18,3 C18,4.656 16.656,6 15,6 C13.344,6 12,4.656 12,3 Z" id="Path"></path>
+            <polygon id="Path" points="19 10 29.3 5.558 28.558 3.7 16 8 14 8 1.442 3.7 0.7 5.558 11 10 11 18 6.898 31.268 8.768 31.978 14.572 19 15.43 19 21.234 31.978 23.104 31.268 19.002 18"></polygon>
+        </g>
+    </g>
+</svg>

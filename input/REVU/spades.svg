@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="32px" viewBox="0 0 28 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>spades</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="024-spades" fill="#000000" fill-rule="nonzero">
+            <path d="M23.55,10.88 C17.502,6.384 15.416,2.786 14.002,0 L14.002,0 C14.002,0 14.002,0 14.002,0 L14.002,0 C12.586,2.786 10.502,6.384 4.454,10.88 C-5.86,18.546 3.848,29.244 12.384,23.356 C11.828,27.01 9.93,29.674 8.002,30.822 L8.002,32.002 L20.002,32.002 L20.002,30.822 C18.074,29.674 16.176,27.01 15.62,23.356 C24.156,29.244 33.864,18.546 23.55,10.88 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

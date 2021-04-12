@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>airplane</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="176-airplane" fill="#000000" fill-rule="nonzero">
+            <path d="M24,19.998 L18.286,14.284 L32,3.998 L28,-0.002 L10.858,6.856 L5.462,1.458 C3.906,-0.098 1.734,-0.47 0.634,0.63 C-0.466,1.73 -0.094,3.902 1.462,5.458 L6.858,10.854 L8.8817842e-16,27.998 L4,31.998 L14.288,18.284 L20.002,23.998 L20.002,31.998 L24.002,31.998 L26.002,25.998 L32.002,23.998 L32.002,19.998 L24.002,19.998 L24,19.998 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

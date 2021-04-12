@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pause</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="279-pause" fill="#000000" fill-rule="nonzero">
+            <path d="M16,0 C7.164,0 0,7.164 0,16 C0,24.836 7.164,32 16,32 C24.836,32 32,24.836 32,16 C32,7.164 24.836,0 16,0 Z M16,29 C8.82,29 3,23.18 3,16 C3,8.82 8.82,3 16,3 C23.18,3 29,8.82 29,16 C29,23.18 23.18,29 16,29 Z M10,10 L14,10 L14,22 L10,22 L10,10 Z M18,10 L22,10 L22,22 L18,22 L18,10 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

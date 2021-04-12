@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="20px" viewBox="0 0 32 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cloud_check</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="197-cloud-check" fill="#000000" fill-rule="nonzero">
+            <path d="M27.884,10.078 C27.96,9.73 28,9.37 28,9 C28,6.238 25.762,4 23,4 C22.556,4 22.124,4.058 21.714,4.168 C20.94,1.75 18.674,-8.8817842e-16 16,-8.8817842e-16 C13.27,-8.8817842e-16 10.968,1.822 10.24,4.318 C9.53,4.112 8.778,4 8,4 C3.582,4 -1.77635684e-15,7.582 -1.77635684e-15,12 C-1.77635684e-15,16.418 3.582,20 8,20 L27,20 C29.762,20 32,17.762 32,15 C32,12.54 30.224,10.496 27.884,10.078 Z M13,18 L8,13 L10,11 L13,14 L20,7 L22,9 L13,18 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

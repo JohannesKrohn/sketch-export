@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>magic_wand</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="152-magic-wand" fill="#000000" fill-rule="nonzero">
+            <path d="M8,6 L4,2 L2,2 L2,4 L6,8 L8,6 Z M10,0 L12,0 L12,4 L10,4 L10,0 Z M18,10 L22,10 L22,12 L18,12 L18,10 Z M20,4 L20,2 L18,2 L14,6 L16,8 L20,4 Z M0,10 L4,10 L4,12 L0,12 L0,10 Z M10,18 L12,18 L12,22 L10,22 L10,18 Z M2,18 L2,20 L4,20 L8,16 L6,14 L2,18 Z M31.562,27.562 L11.684,7.684 C11.1,7.1 10.146,7.1 9.562,7.684 L7.684,9.562 C7.1,10.146 7.1,11.1 7.684,11.684 L27.562,31.562 C28.146,32.146 29.1,32.146 29.684,31.562 L31.562,29.684 C32.146,29.1 32.146,28.146 31.562,27.562 Z M15,17 L9,11 L11,9 L17,15 L15,17 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

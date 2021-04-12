@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="20px" viewBox="0 0 28 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>opt</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="338-opt" fill="#000000" fill-rule="nonzero">
+            <path d="M27,20 L19,20 C18.604,20 18.246,19.768 18.086,19.406 L10.35,2 L1,2 C0.448,2 -1.77635684e-15,1.552 -1.77635684e-15,1 C-1.77635684e-15,0.448 0.448,0 1,0 L11,0 C11.396,0 11.754,0.232 11.914,0.594 L19.65,18 L27,18 C27.552,18 28,18.448 28,19 C28,19.552 27.552,20 27,20 Z" id="Path"></path>
+            <path d="M27,2 L17,2 C16.448,2 16,1.552 16,1 C16,0.448 16.448,0 17,0 L27,0 C27.552,0 28,0.448 28,1 C28,1.552 27.552,2 27,2 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

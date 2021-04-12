@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <path fill="#39393A" fill-rule="evenodd" d="M10,13 C10,12.5 9.5,12 9,12 L4,12 C3.4,12 3,12.5 3,13 L3,27 C3,27.5 3.4,28 4,28 L9,28 C9.5,28 10,27.5 10,27 L10,13 Z M29,9 C29,8.5 28.5,8 28,8 L23,8 C22.5,8 22,8.5 22,9 L22,27 C22,27.5 22.5,28 23,28 L28,28 C28.5,28 29,27.5 29,27 L29,9 Z M19.5,5 C19.5,4.4 19,4 18.5,4 L13.5,4 C13,4 12.5,4.4 12.5,5 L12.5,27 C12.5,27.5 13,28 13.5,28 L18.5,28 C19,28 19.5,27.5 19.5,27 L19.5,5 Z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/container/connect/chart_bar</title>
+    <g id="Icons-variable-width---for-Exporting-only" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-/-32-/-chart-bar" fill="#39393A">
+            <path d="M10,13 C10,12.5 9.5,12 9,12 L4,12 C3.4,12 3,12.5 3,13 L3,27 C3,27.5 3.4,28 4,28 L9,28 C9.5,28 10,27.5 10,27 L10,13 Z M29,9 C29,8.5 28.5,8 28,8 L23,8 C22.5,8 22,8.5 22,9 L22,27 C22,27.5 22.5,28 23,28 L28,28 C28.5,28 29,27.5 29,27 L29,9 Z M19.5,5 C19.5,4.4 19,4 18.5,4 L13.5,4 C13,4 12.5,4.4 12.5,5 L12.5,27 C12.5,27.5 13,28 13.5,28 L18.5,28 C19,28 19.5,27.5 19.5,27 L19.5,5 Z" id="●-icon"></path>
+        </g>
+    </g>
 </svg>

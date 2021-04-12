@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>next</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="282-next" fill="#000000" fill-rule="nonzero">
+            <path d="M16,0 C24.836,0 32,7.164 32,16 C32,24.836 24.836,32 16,32 C7.164,32 0,24.836 0,16 C0,7.164 7.164,0 16,0 Z M16,29 C23.18,29 29,23.18 29,16 C29,8.82 23.18,3 16,3 C8.82,3 3,8.82 3,16 C3,23.18 8.82,29 16,29 Z" id="Shape"></path>
+            <polygon id="Path" points="18 16 10 10 10 22"></polygon>
+            <polygon id="Path" points="22 10 18 10 18 22 22 22"></polygon>
+        </g>
+    </g>
+</svg>

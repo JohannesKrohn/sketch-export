@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="28px" viewBox="0 0 31 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>shuffle</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="305-shuffle" fill="#000000" fill-rule="nonzero">
+            <path d="M24,19 L20.828,19 L15.828,14 L20.828,9 L24,9 L24,14 L31,7 L24,0 L24,5 L20,5 C19.47,5 18.96,5.21 18.586,5.586 L13,11.172 L7.414,5.586 C7.038,5.21 6.53,5 6,5 L0,5 L0,9 L5.172,9 L10.172,14 L5.172,19 L0,19 L0,23 L6,23 C6.53,23 7.04,22.79 7.414,22.414 L13,16.828 L18.586,22.414 C18.962,22.79 19.47,23 20,23 L24,23 L24,28 L31,21 L24,14 L24,19 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

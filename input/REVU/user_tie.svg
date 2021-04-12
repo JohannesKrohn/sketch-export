@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="30px" viewBox="0 0 24 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>user_tie</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="119-user-tie" fill="#000000" fill-rule="nonzero">
+            <path d="M6,6 C6,2.686 8.686,0 12,0 C15.314,0 18,2.686 18,6 C18,9.314 15.314,12 12,12 C8.686,12 6,9.314 6,6 Z M20.002,14 L18.896,14 L12.674,26.632 L15,15 L12,12 L9,15 L11.326,26.632 L5.104,14 L3.996,14 C-0.002,14 -0.002,16.688 -0.002,20 L-0.002,30 L23.998,30 L23.998,20 C23.998,16.688 23.998,14 20,14 L20.002,14 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

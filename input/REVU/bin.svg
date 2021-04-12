@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="32px" viewBox="0 0 26 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bin</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="173-bin" fill="#000000" fill-rule="nonzero">
+            <path d="M2,10 L2,30 C2,31.1 2.9,32 4,32 L22,32 C23.1,32 24,31.1 24,30 L24,10 L2,10 Z M8,28 L6,28 L6,14 L8,14 L8,28 Z M12,28 L10,28 L10,14 L12,14 L12,28 Z M16,28 L14,28 L14,14 L16,14 L16,28 Z M20,28 L18,28 L18,14 L20,14 L20,28 Z" id="Shape"></path>
+            <path d="M24.5,4 L18,4 L18,1.5 C18,0.676 17.324,0 16.5,0 L9.5,0 C8.676,0 8,0.676 8,1.5 L8,4 L1.5,4 C0.674,4 0,4.674 0,5.5 L0,8 L26,8 L26,5.5 C26,4.674 25.324,4 24.5,4 Z M16,4 L10,4 L10,2.026 L16,2.026 L16,4 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

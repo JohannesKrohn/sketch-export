@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="14px" viewBox="0 0 32 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flickr2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="421-flickr2" fill="#000000" fill-rule="nonzero">
+            <path d="M25,3 C22.794,3 21,4.794 21,7 C21,9.206 22.794,11 25,11 C27.206,11 29,9.206 29,7 C29,4.794 27.206,3 25,3 Z M25,0 L25,0 C28.866,0 32,3.134 32,7 C32,10.866 28.866,14 25,14 C21.134,14 18,10.866 18,7 C18,3.134 21.134,0 25,0 Z M0,7 C0,3.134 3.134,0 7,0 C10.866,0 14,3.134 14,7 C14,10.866 10.866,14 7,14 C3.134,14 0,10.866 0,7 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

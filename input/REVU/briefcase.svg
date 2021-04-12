@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="26px" viewBox="0 0 32 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>briefcase</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="175-briefcase" fill="#000000" fill-rule="nonzero">
+            <path d="M30,4 L22,4 L22,2 C22,0.9 21.1,0 20,0 L12,0 C10.9,0 10,0.9 10,2 L10,4 L2,4 C0.9,4 0,4.9 0,6 L0,24 C0,25.1 0.9,26 2,26 L30,26 C31.1,26 32,25.1 32,24 L32,6 C32,4.9 31.1,4 30,4 Z M12,2.004 C12.002,2.002 12.002,2.002 12.004,2 L19.996,2 C19.998,2.002 19.998,2.002 20,2.004 L20,4 L12,4 L12,2.004 Z M30,12 L26,12 L26,15 C26,15.55 25.55,16 25,16 L23,16 C22.45,16 22,15.55 22,15 L22,12 L10,12 L10,15 C10,15.55 9.55,16 9,16 L7,16 C6.45,16 6,15.55 6,15 L6,12 L2,12 L2,10 L30,10 L30,12 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

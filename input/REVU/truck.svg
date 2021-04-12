@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="26px" viewBox="0 0 32 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>truck</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="177-truck" fill="#000000" fill-rule="nonzero">
+            <path d="M32,14 L28,6 L22,6 L22,2 C22,0.9 21.1,0 20,0 L2,0 C0.9,0 0,0.9 0,2 L0,18 L2,20 L4.536,20 C4.196,20.588 4,21.272 4,22 C4,24.21 5.79,26 8,26 C10.21,26 12,24.21 12,22 C12,21.272 11.804,20.588 11.464,20 L22.536,20 C22.196,20.588 22,21.272 22,22 C22,24.21 23.79,26 26,26 C28.21,26 30,24.21 30,22 C30,21.272 29.804,20.588 29.464,20 L32,20 L32,14 Z M22,14 L22,8 L26.146,8 L29.146,14 L22,14 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>neutral</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="248-neutral" fill="#000000" fill-rule="nonzero">
+            <path d="M16,32 C24.836,32 32,24.836 32,16 C32,7.164 24.836,0 16,0 C7.164,0 0,7.164 0,16 C0,24.836 7.164,32 16,32 Z M16,3 C23.18,3 29,8.82 29,16 C29,23.18 23.18,29 16,29 C8.82,29 3,23.18 3,16 C3,8.82 8.82,3 16,3 Z M8,10 C8,11.104 8.896,12 10,12 C11.104,12 12,11.104 12,10 C12,8.896 11.104,8 10,8 C8.896,8 8,8.896 8,10 Z M20,10 C20,11.104 20.896,12 22,12 C23.104,12 24,11.104 24,10 C24,8.896 23.104,8 22,8 C20.896,8 20,8.896 20,10 Z M12,22 L20,22 L20,24 L12,24 L12,22 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

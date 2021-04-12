@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>renren</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="410-renren" fill="#000000" fill-rule="nonzero">
+            <path d="M13.288,0.332 C5.75,1.6 0,8.158 0,16.056 C0,19.982 1.426,23.574 3.774,26.356 C9.356,23.656 13.262,17.544 13.286,10.424 L13.286,0.33 L13.288,0.332 Z" id="Path"></path>
+            <path d="M18.712,0.332 C26.25,1.6 32,8.158 32,16.056 C32,19.982 30.574,23.574 28.226,26.356 C22.644,23.656 18.738,17.544 18.714,10.424 L18.714,0.33 L18.712,0.332 Z" id="Path"></path>
+            <path d="M15.944,20.082 C14.95,24.194 11.982,27.708 8.288,30.044 C10.564,31.288 13.17,32 15.944,32 C18.718,32 21.326,31.288 23.6,30.044 C19.906,27.706 16.938,24.194 15.944,20.082 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>page_break</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="361-page-break" fill="#000000" fill-rule="nonzero">
+            <path d="M0,16 L4,16 L4,18 L0,18 L0,16 Z M6,16 L12,16 L12,18 L6,18 L6,16 Z M14,16 L18,16 L18,18 L14,18 L14,16 Z M20,16 L26,16 L26,18 L20,18 L20,16 Z M28,16 L32,16 L32,18 L28,18 L28,16 Z M27.5,0 L28,14 L4,14 L4.5,0 L5.5,0 L6,12 L26,12 L26.5,0 L27.5,0 Z M4.5,32 L4,20 L28,20 L27.5,32 L26.5,32 L26,22 L6,22 L5.5,32 L4.5,32 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" viewBox="0 0 16 23">
-  <path fill="#39393A" fill-rule="evenodd" d="M16,4 C16.357,4 16.65,4.216 16.866,4.5 C20.786,9.65 24,16 24,19 C24,23.398 20.437,27 16,27 C11.563,27 8,23.398 8,19 C8,16 11.214,9.65 15.134,4.5 C15.35,4.216 15.643,4 16,4 Z M22,19 L20,19 C20,20.424 19.233,21.752 18,22.464 L18,22.464 L19,24.196 C20.851,23.128 22,21.136 22,19 L22,19 Z" transform="translate(-8 -4)"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="23px" viewBox="0 0 16 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/no_container/water</title>
+    <g id="Icons-variable-width---for-Exporting-only" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-/-32-/-water" transform="translate(-8.000000, -4.000000)" fill="#39393A">
+            <path d="M16,4 C16.357,4 16.65,4.216 16.866,4.5 C20.786,9.65 24,16 24,19 C24,23.398 20.437,27 16,27 C11.563,27 8,23.398 8,19 C8,16 11.214,9.65 15.134,4.5 C15.35,4.216 15.643,4 16,4 Z M22,19 L20,19 C20,20.424 19.233,21.752 18,22.464 L18,22.464 L19,24.196 C20.851,23.128 22,21.136 22,19 L22,19 Z" id="●-icon"></path>
+        </g>
+    </g>
 </svg>
