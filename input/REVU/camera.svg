@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="26px" viewBox="0 0 32 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>camera</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="016-camera" fill="#000000" fill-rule="nonzero">
-            <path d="M9.5,15 C9.5,18.59 12.41,21.5 16,21.5 C19.59,21.5 22.5,18.59 22.5,15 C22.5,11.41 19.59,8.5 16,8.5 C12.41,8.5 9.5,11.41 9.5,15 Z M30,4 L23,4 C22.5,2 22,0 20,0 L12,0 C10,0 9.5,2 9,4 L2,4 C0.9,4 0,4.9 0,6 L0,24 C0,25.1 0.9,26 2,26 L30,26 C31.1,26 32,25.1 32,24 L32,6 C32,4.9 31.1,4 30,4 Z M16,23.876 C11.098,23.876 7.124,19.902 7.124,15 C7.124,10.098 11.098,6.124 16,6.124 C20.902,6.124 24.876,10.098 24.876,15 C24.876,19.902 20.902,23.876 16,23.876 L16,23.876 Z M30,10 L26,10 L26,8 L30,8 L30,10 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>

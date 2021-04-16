@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>blogger</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="440-blogger" fill="#000000" fill-rule="nonzero">
-            <path d="M29.932,12 L28.138,12 C27.04,12 26.076,11.07 26,10 L26,10 C26,4.292 21.398,0 15.65,0 L10.406,0 C4.662,0 0.004,4.626 0,10.334 L0,21.672 C0,27.38 4.662,32.002 10.406,32.002 L21.606,32.002 C27.354,32.002 32,27.38 32,21.672 L32,14.348 C32,13.208 31.08,12.002 29.932,12.002 L29.932,12 Z M10,8 L16,8 C17.1,8 18,8.9 18,10 C18,11.1 17.1,12 16,12 L10,12 C8.9,12 8,11.1 8,10 C8,8.9 8.9,8 10,8 Z M22,24 L10,24 C8.9,24 8,23.1 8,22 C8,20.9 8.9,20 10,20 L22,20 C23.1,20 24,20.9 24,22 C24,23.1 23.1,24 22,24 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>

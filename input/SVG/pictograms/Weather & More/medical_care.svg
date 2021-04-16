@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>pictograms/Weather &amp; More/medical_care</title>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="pictograms/Weather-&amp;-More/medical-care" fill="#39393A">
-            <path d="M66,33 L56,33 L56,30 C56,28.8954305 55.1045695,28 54,28 L42,28 C40.8954305,28 40,28.8954305 40,30 L40,33 L30,33 C27.790861,33 26,34.790861 26,37 L26,61 C26,63.209139 27.790861,65 30,65 L66,65 C68.209139,65 70,63.209139 70,61 L70,37 C70,34.790861 68.209139,33 66,33 Z M39,52 L39,46 L45,46 L45,40 L51,40 L51,46 L57,46 L57,52 L51,52 L51,58 L45,58 L45,52 L39,52 Z M42,30 L54,30 L54,33 L42,33 L42,30 Z" id="●-Pictogram"></path>
-        </g>
-    </g>
-</svg>

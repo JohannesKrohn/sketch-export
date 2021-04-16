@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>play</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="019-play" fill="#000000" fill-rule="nonzero">
-            <path d="M30.662,1.004 C26.174,0.358 21.214,0 16,0 C10.786,0 5.826,0.358 1.338,1.004 C0.478,4.37 -3.55271368e-15,8.09 -3.55271368e-15,12 C-3.55271368e-15,15.91 0.478,19.63 1.338,22.996 C5.826,23.642 10.786,24 16,24 C21.214,24 26.174,23.642 30.662,22.996 C31.522,19.63 32,15.91 32,12 C32,8.09 31.522,4.37 30.662,1.004 Z M12,18 L12,6 L22,12 L12,18 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>

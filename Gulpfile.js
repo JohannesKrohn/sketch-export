@@ -232,6 +232,7 @@ gulp.task('cleanup', function () {
             parserOptions: {xmlMode: true},
             run: ($, file, done) => {
                 $('[fill]').removeAttr('fill');
+                $('path, rect, circle').removeAttr('fill-rule');
                 $('[stroke]').removeAttr('stroke');
                 $('[style]').removeAttr('style');
                 done();
@@ -242,6 +243,7 @@ gulp.task('cleanup', function () {
             parserOptions: {xmlMode: true},
             run: ($, file, done) => {
                 $('[fill]').removeAttr('fill');
+                $('path, rect, circle').removeAttr('fill-rule');
                 $('[stroke]').removeAttr('stroke');
                 $('[style]').removeAttr('style');
                 $('path, rect, circle').attr('fill', $fillRed);
@@ -298,7 +300,7 @@ gulp.task('svgEONUI', function (complete) {
     del('./output/svg/nofill/')
 
     const sourcePath = 'input/SVG/icon/no_container';
-    const destinationPath = './output/json/revu';
+    const destinationPath = './output/icon/';
 
 
     const svgJson = {};
@@ -353,6 +355,7 @@ gulp.task('svgEONUI', function (complete) {
             parserOptions: {xmlMode: true},
             run: ($, file, done) => {
                 $('[fill]').removeAttr('fill');
+                $('[fill-rule]').removeAttr('fill-rule');
                 done();
             }
         }))//cheerio
@@ -368,6 +371,7 @@ gulp.task('svgEONUI', function (complete) {
             const capturePath = new RegExp(/(?:<path\s+d=")(?<pathSVG>.*?)(?:")/, 'g')
             let matchViewBox = captureViewBox.exec(svg);
             let matchPath = capturePath.exec(svg);
+            console.log(svg, matchPath)
             svgJson[chunk.stem] =
                 {
                     viewBox: matchViewBox.groups.viewBox,

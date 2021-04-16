@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="18px" height="32px" viewBox="0 0 18 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>mic</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="031-mic" fill="#000000" fill-rule="nonzero">
-            <path d="M9,22 C11.762,22 14,19.762 14,17 L14,5 C14,2.238 11.762,0 9,0 C6.238,0 4,2.238 4,5 L4,17 C4,19.762 6.238,22 9,22 Z M16,14 L16,17 C16,20.866 12.866,24 9,24 C5.134,24 2,20.866 2,17 L2,14 L0,14 L0,17 C0,21.632 3.5,25.446 8,25.944 L8,30 L4,30 L4,32 L14,32 L14,30 L10,30 L10,25.944 C14.5,25.446 18,21.632 18,17 L18,14 L16,14 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>

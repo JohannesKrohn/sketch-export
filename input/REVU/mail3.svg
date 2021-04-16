@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>mail3</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="390-mail3" fill="#000000" fill-rule="nonzero">
-            <path d="M26.666,0 L5.334,0 C2.4,0 0,2.4 0,5.334 L0,26.666 C0,29.602 2.4,32 5.334,32 L26.666,32 C29.6,32 32,29.602 32,26.666 L32,5.334 C32,2.4 29.6,0 26.666,0 Z M5.708,27.708 L3.294,25.294 L11.294,17.294 L12.208,18.208 L5.708,27.708 Z M4.792,6.208 L5.706,5.294 L15.998,13.586 L26.29,5.294 L27.204,6.208 L15.996,19.416 L4.788,6.208 L4.792,6.208 Z M26.292,27.708 L19.792,18.208 L20.706,17.294 L28.706,25.294 L26.292,27.708 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>

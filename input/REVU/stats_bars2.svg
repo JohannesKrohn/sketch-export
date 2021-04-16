@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>stats_bars2</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="158-stats-bars2" fill="#000000" fill-rule="nonzero">
-            <path d="M7,8 L1,8 C0.45,8 0,8.45 0,9 L0,27 C0,27.55 0.45,28 1,28 L7,28 C7.55,28 8,27.55 8,27 L8,9 C8,8.45 7.55,8 7,8 Z M7,26 L1,26 L1,18 L7,18 L7,26 Z M17,4 L11,4 C10.45,4 10,4.45 10,5 L10,27 C10,27.55 10.45,28 11,28 L17,28 C17.55,28 18,27.55 18,27 L18,5 C18,4.45 17.55,4 17,4 Z M17,26 L11,26 L11,16 L17,16 L17,26 Z M27,0 L21,0 C20.45,0 20,0.45 20,1 L20,27 C20,27.55 20.45,28 21,28 L27,28 C27.55,28 28,27.55 28,27 L28,1 C28,0.45 27.55,0 27,0 Z M27,26 L21,26 L21,14 L27,14 L27,26 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>

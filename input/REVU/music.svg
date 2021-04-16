@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>music</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="018-music" fill="#000000" fill-rule="nonzero">
-            <path d="M30,0 L32,0 L32,23 C32,25.762 28.866,28 25,28 C21.134,28 18,25.762 18,23 C18,20.238 21.134,18 25,18 C26.958,18 28.73,18.574 30,19.502 L30,8 L14,11.556 L14,27 C14,29.762 10.866,32 7,32 C3.134,32 0,29.762 0,27 C0,24.238 3.134,22 7,22 C8.958,22 10.73,22.574 12,23.502 L12,4 L30,0 Z" id="Path"></path>
-        </g>
-    </g>
-</svg>

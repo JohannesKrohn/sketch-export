@@ -1,9 +1,9 @@
-
 .DS_Store
 .idea
 node_modules/
 output/
-input/**/*.sketch
 assets/
 *.sketch
 package-lock.json
+input/
+iconfont/

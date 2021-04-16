@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>spinner9</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="131-spinner9" fill="#000000" fill-rule="nonzero">
-            <path d="M16,0 C7.29,0 0.204,6.962 0.004,15.624 C0.188,8.066 5.936,2 13,2 C20.18,2 26,8.268 26,16 C26,17.656 27.344,19 29,19 C30.656,19 32,17.656 32,16 C32,7.164 24.836,0 16,0 Z M16,32 C24.71,32 31.796,25.038 31.996,16.376 C31.812,23.934 26.064,30 19,30 C11.82,30 6,23.732 6,16 C6,14.344 4.656,13 3,13 C1.344,13 0,14.344 0,16 C0,24.836 7.164,32 16,32 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>

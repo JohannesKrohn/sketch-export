@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="26px" height="32px" viewBox="0 0 26 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>icon/height32/notification_outline</title>
-    <g id="Icons-variable-width---for-Exporting-only" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon-/-32-/-notification-outline" transform="translate(-3.000000, 0.000000)" fill="#39393A">
-            <path d="M25,6 L7,6 C4.8,6 3,7.8 3,10 L3,22 C3,24.2 4.8,26 7,26 L25,26 C27.2,26 29,24.2 29,22 L29,10 C29,7.8 27.2,6 25,6 Z M7,8 L25,8 C25.7,8 26.3,8.3 26.7,8.9 C23.3,12.5 19.9,15.2 16,17.6 C12.2,15.2 8.8,12.4 5.3,8.9 C5.66666667,8.35 6.20138889,8.05208333 6.8271412,8.00625 L7,8 Z M25,24 L7,24 C5.9,24 5,23.1 5,22 L5,11.4 C8.2,14.6 11.4,17.1 14.9,19.3 C15.2,19.5 15.6,19.6 16,19.6 C16.4,19.6 16.7,19.5 17.1,19.3 C20.7,17.1 23.9,14.5 27,11.4 L27,22 C27,23.1 26.1,24 25,24 Z" id="●-icon"></path>
-        </g>
-    </g>
-</svg>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="28px" height="32px" viewBox="0 0 28 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>switch</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="183-switch" fill="#000000" fill-rule="nonzero">
-            <path d="M18,4.58 L18,8.828 C19.132,9.322 20.172,10.028 21.072,10.928 C22.96,12.816 24,15.328 24,18 C24,20.672 22.96,23.182 21.072,25.072 C19.184,26.96 16.672,28 14,28 C11.328,28 8.818,26.96 6.928,25.072 C5.04,23.184 4,20.672 4,18 C4,15.328 5.04,12.818 6.928,10.928 C7.828,10.028 8.868,9.322 10,8.828 L10,4.58 C4.218,6.302 0,11.658 0,18 C0,25.732 6.268,32 14,32 C21.732,32 28,25.732 28,18 C28,11.658 23.782,6.302 18,4.58 Z M12,0 L16,0 L16,16 L12,16 L12,0 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>

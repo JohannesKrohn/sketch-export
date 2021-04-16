@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="32px" viewBox="0 0 20 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>mobile</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="089-mobile" fill="#000000" fill-rule="nonzero">
-            <path d="M17,0 L3,0 C1.35,0 0,1.35 0,3 L0,29 C0,30.65 1.35,32 3,32 L17,32 C18.65,32 20,30.65 20,29 L20,3 C20,1.35 18.65,0 17,0 Z M6,1.5 L14,1.5 L14,2.5 L6,2.5 L6,1.5 Z M10,30 C8.896,30 8,29.104 8,28 C8,26.896 8.896,26 10,26 C11.104,26 12,26.896 12,28 C12,29.104 11.104,30 10,30 Z M18,24 L2,24 L2,4 L18,4 L18,24 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="28px" height="32px" viewBox="0 0 28 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>hangouts</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="399-hangouts" fill="#000000" fill-rule="nonzero">
-            <path d="M13.994,0 C6.362,0 0.176,6.188 0.176,13.818 C0.176,21.05 6.764,26.912 13.994,26.912 L13.994,32 C22.388,27.744 27.826,20.888 27.826,13.818 C27.826,6.186 21.626,0 13.994,0 Z M12,16 C12,17.656 11.106,19 10,19 L10,16 L6,16 L6,10 L12,10 L12,16 Z M22,16 C22,17.656 21.106,19 20,19 L20,16 L16,16 L16,10 L22,10 L22,16 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>

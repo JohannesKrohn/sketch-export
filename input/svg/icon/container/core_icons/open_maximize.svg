@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>icon/container/core_icons/open_maximize</title>
-    <g id="Icons-variable-width---for-Exporting-only" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon-/-32-/-open-maximize" fill="#39393A">
-            <path d="M26,15 L17,15 L17,6 C17,5.4 16.6,5 16,5 C15.4,5 15,5.4 15,6 L15,15 L6,15 C5.4,15 5,15.4 5,16 C5,16.6 5.4,17 6,17 L15,17 L15,26 C15,26.6 15.4,27 16,27 C16.6,27 17,26.6 17,26 L17,17 L26,17 C26.6,17 27,16.6 27,16 C27,15.4 26.6,15 26,15 Z" id="●-icon"></path>
-        </g>
-    </g>
-</svg>

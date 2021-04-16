@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="28px" height="32px" viewBox="0 0 28 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>spell_check</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="275-spell-check" fill="#000000" fill-rule="nonzero">
-            <path d="M2,8 L6,8 L6,14 L8,14 L8,2 C8,0.9 7.1,0 6,0 L2,0 C0.9,0 0,0.9 0,2 L0,14 L2,14 L2,8 Z M2,2 L6,2 L6,6 L2,6 L2,2 Z M28,2 L28,0 L22,0 C20.9,0 20,0.9 20,2 L20,12 C20,13.1 20.9,14 22,14 L28,14 L28,12 L22,12 L22,2 L28,2 Z M18,5 L18,2 C18,0.9 17.1,0 16,0 L10,0 L10,14 L16,14 C17.1,14 18,13.1 18,12 L18,9 C18,7.9 17.726,7 16.624,7 C17.724,7 18,6.1 18,5 Z M16,12 L12,12 L12,8 L16,8 L16,12 Z M16,6 L12,6 L12,2 L16,2 L16,6 Z M24,18 L11,32 L4,23 L6.562,20.812 L11,25.438 L22,16 L24,18 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>

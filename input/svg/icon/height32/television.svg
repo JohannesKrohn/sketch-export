@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="30px" height="32px" viewBox="0 0 30 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>icon/height32/television</title>
-    <g id="Icons-variable-width---for-Exporting-only" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon-/-32-/-television" transform="translate(-1.000000, 0.000000)" fill="#39393A">
-            <path d="M23,26 C23,26.6 22.6,27 22,27 L10,27 C9.4,27 9,26.6 9,26 C9,25.4 9.4,25 10,25 L22,25 C22.6,25 23,25.4 23,26 Z M29,4 C30.1,4 31,4.9 31,6 L31,21 C31,22.1 30.1,23 29,23 L3,23 C1.9,23 1,22.1 1,21 L1,6 C1,4.9 1.9,4 3,4 L29,4 Z M3,21 L29,21 L29,6 L3,6 L3,21 Z" id="●-icon"></path>
-        </g>
-    </g>
-</svg>

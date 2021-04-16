@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>rocket</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="166-rocket" fill="#000000" fill-rule="nonzero">
-            <path d="M22,2 L12,12 L6,12 L0,20 C0,20 6.356,18.23 10.064,19.06 L0,32 L13.184,21.746 C15.022,25.954 12,32 12,32 L20,26 L20,20 L30,10 L32,0 L22,2 Z" id="Path"></path>
-        </g>
-    </g>
-</svg>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>unlocked</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="145-unlocked" fill="#000000" fill-rule="nonzero">
-            <path d="M24,0 C27.308,0 30,2.692 30,6 L30,12 L26,12 L26,6 C26,4.898 25.102,4 24,4 L20,4 C18.898,4 18,4.898 18,6 L18,12 L18.5,12 C19.324,12 20,12.676 20,13.5 L20,28.5 C20,29.324 19.324,30 18.5,30 L1.5,30 C0.676,30 0,29.324 0,28.5 L0,13.5 C0,12.676 0.676,12 1.5,12 L14,12 L14,6 C14,2.692 16.692,0 20,0 L24,0 Z" id="Path"></path>
-        </g>
-    </g>
-</svg>

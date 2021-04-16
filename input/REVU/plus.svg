@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>plus</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="267-plus" fill="#000000" fill-rule="nonzero">
-            <path d="M31,12 L20,12 L20,1 C20,0.448 19.552,0 19,0 L13,0 C12.448,0 12,0.448 12,1 L12,12 L1,12 C0.448,12 0,12.448 0,13 L0,19 C0,19.552 0.448,20 1,20 L12,20 L12,31 C12,31.552 12.448,32 13,32 L19,32 C19.552,32 20,31.552 20,31 L20,20 L31,20 C31.552,20 32,19.552 32,19 L32,13 C32,12.448 31.552,12 31,12 Z" id="Path"></path>
-        </g>
-    </g>
-</svg>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>calculator</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="065-calculator" fill="#000000" fill-rule="nonzero">
-            <path d="M12,0 L2,0 C0.9,0 0,0.9 0,2 L0,12 C0,13.1 0.9,14 2,14 L12,14 C13.1,14 14,13.1 14,12 L14,2 C14,0.9 13.1,0 12,0 Z M12,8 L2,8 L2,6 L12,6 L12,8 Z M28,0 L18,0 C16.9,0 16,0.9 16,2 L16,28 C16,29.1 16.9,30 18,30 L28,30 C29.1,30 30,29.1 30,28 L30,2 C30,0.9 29.1,0 28,0 Z M28,18 L18,18 L18,16 L28,16 L28,18 Z M28,12 L18,12 L18,10 L28,10 L28,12 Z M12,16 L2,16 C0.9,16 0,16.9 0,18 L0,28 C0,29.1 0.9,30 2,30 L12,30 C13.1,30 14,29.1 14,28 L14,18 C14,16.9 13.1,16 12,16 Z M12,24 L8,24 L8,28 L6,28 L6,24 L2,24 L2,22 L6,22 L6,18 L8,18 L8,22 L12,22 L12,24 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>
