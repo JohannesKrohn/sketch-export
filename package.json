@@ -29,6 +29,6 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "fontellizr": "^1.4.4",
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.21"
   }
 }
