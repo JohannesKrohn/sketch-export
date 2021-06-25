@@ -7,6 +7,7 @@ const gulp = require('gulp'),
     iconfontCss = require('gulp-iconfont-css'),
     iconfont = require('gulp-iconfont'),
     runTimestamp = Math.round(Date.now() / 1000),
+    replace = require('gulp-string-replace');
     through = require('through2'),
     fs = require('fs'),
     $fill1 = "#fff",
@@ -17,23 +18,42 @@ const gulp = require('gulp'),
 
 const svgoSettings = [
 
-    // {
-    //     removeAttrs: {
-    //         attrs: ['stroke', 'fill']
-    //     }
-    //
-    // },
     {
         removeViewBox: false
+    },
+    {
+        mergePaths: true
+    },
+    {
+        convertPathData: {
+            floatPrecision: 4
+        }
+    },
+    {
+        convertShapeToPath: true
+    },
+    {
+        cleanupNumericValues: {
+            floatPrecision: 4
+        }
+    },
+    {
+        removeAttrs: {
+            attrs: ['shape-rendering', 'color-rendering', 'clip-path']
+        }
     }
-    // ,
-    // {
-    //     removeTitle: true
-    // }, {
-    //     collapseGroups: true
-    // }, {
-    //     removeStyleElement: true
-    // }
+
+];
+
+const svgoPaths = [
+
+    {
+        removeViewBox: false
+    },
+    {
+        mergePaths: true
+    }
+
 ];
 
 const spriteConfig = {
@@ -299,8 +319,10 @@ gulp.task('svgEONUI', function (complete) {
 
     del('./output/svg/nofill/')
 
-    const sourcePath = 'input/SVG/icon/no_container';
-    const destinationPath = './output/icon/';
+    const eonUIpath = 'input/SVG/';
+
+    const sourcePath = eonUIpath;
+    const destinationPath = './output/eonUI/';
 
 
     const svgJson = {};
@@ -340,6 +362,8 @@ gulp.task('svgEONUI', function (complete) {
         .pipe(svgo({
             plugins: svgoSettings
         })) //svgo
+
+
         .pipe(cheerio({
             parserOptions: {xmlMode: true},
             run: ($, file, done) => {
@@ -350,38 +374,40 @@ gulp.task('svgEONUI', function (complete) {
                 done();
             }
         }))//cheerio
-        .pipe(gulp.dest(destinationPath + '/eonui/red/'))
+
+        .pipe(gulp.dest(destinationPath + '/red/'))
         .pipe(cheerio({
             parserOptions: {xmlMode: true},
             run: ($, file, done) => {
                 $('[fill]').removeAttr('fill');
-                $('[fill-rule]').removeAttr('fill-rule');
                 done();
             }
         }))//cheerio
-        // .pipe(svgo({
-        //     js2svg: {
-        //         pretty: true
-        //     } //js2svg
+        .pipe(svgo({
+            plugins: svgoPaths
+        })) //svgo
+
+        .pipe(gulp.dest(destinationPath + '/nofill/'))
+
+        // TODO The "fill-rule" destroys the regex search for the path properties
+        // .pipe(through.obj((chunk, enc, cb) => {
+        //     const svg = chunk.contents.toString(enc);
+        //     const captureViewBox = new RegExp(/(viewBox=")(?<viewBox>(\d+\s+)(\d+)(\s+)(?<widthSVG>\d+)(\s+)(?<heightSVG>\d+))("?)/, 'g');
+        //     const capturePath = new RegExp(/(?:<path\s+d=")(?<pathSVG>.*?)(?:")/, 'g')
+        //     let matchViewBox = captureViewBox.exec(svg);
+        //     let matchPath = capturePath.exec(svg);
+        //     console.log(svg, matchPath)
+        //     svgJson[chunk.stem] =
+        //         {
+        //             viewBox: matchViewBox.groups.viewBox,
+        //             width: matchViewBox.groups.widthSVG,
+        //             height: matchViewBox.groups.heightSVG,
+        //             path: matchPath.groups.pathSVG,
+        //             name: chunk.stem
+        //         };
+        //     writeIconJson(svgJson)
+        //     cb(null, chunk)
         // }))
-        .pipe(gulp.dest(destinationPath + '/eonui/nofill/'))
-        .pipe(through.obj((chunk, enc, cb) => {
-            const svg = chunk.contents.toString(enc);
-            const captureViewBox = new RegExp(/(viewBox=")(?<viewBox>(\d+\s+)(\d+)(\s+)(?<widthSVG>\d+)(\s+)(?<heightSVG>\d+))("?)/, 'g');
-            const capturePath = new RegExp(/(?:<path\s+d=")(?<pathSVG>.*?)(?:")/, 'g')
-            let matchViewBox = captureViewBox.exec(svg);
-            let matchPath = capturePath.exec(svg);
-            console.log(svg, matchPath)
-            svgJson[chunk.stem] =
-                {
-                    viewBox: matchViewBox.groups.viewBox,
-                    width: matchViewBox.groups.widthSVG,
-                    height: matchViewBox.groups.heightSVG,
-                    path: matchPath.groups.pathSVG
-                };
-            writeIconJson(svgJson)
-            cb(null, chunk)
-        }))
     complete();
 });// SVG No fill
 
