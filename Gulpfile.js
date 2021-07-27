@@ -388,6 +388,37 @@ gulp.task('svgEONUI', function (complete) {
         })) //svgo
 
         .pipe(gulp.dest(destinationPath + '/nofill/'))
+        .pipe(cheerio({
+            parserOptions: {xmlMode: true},
+            run: ($, file, done) => {
+                let scaleFactor = 0.75;
+                let viewBoxTemp = $('svg').attr('viewBox').split(" ");
+
+                let viewBoxX = parseInt(viewBoxTemp[2]) * scaleFactor;
+                let viewBoxY = 24;
+                let transformY = 24 - viewBoxTemp[3];
+
+                $('svg').attr('viewBox', '0 0 ' + viewBoxX + ' ' + viewBoxY)
+                    .attr('width', viewBoxX)
+                    .attr('height', viewBoxY);
+                $('path').attr('transform', 'scale(' + scaleFactor + ') translate(0 ' + transformY / 2 + ')');
+
+                done();
+            }
+        }))//cheerio
+        .pipe(svgmin({
+            plugins: [{
+                removeViewBox: false
+            }, {
+                removeComments: false
+            }, {
+                cleanupNumericValues: {
+                    floatPrecision: 4
+                }
+
+            }]
+        }))
+        .pipe(gulp.dest(destinationPath + '/24/'))
 
         // TODO The "fill-rule" destroys the regex search for the path properties
         // .pipe(through.obj((chunk, enc, cb) => {
