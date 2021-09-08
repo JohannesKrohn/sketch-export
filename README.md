@@ -18,7 +18,7 @@ npm install --global gulp-cli
 brew install imagemagick
 brew install graphicsmagick
 ```
-4. to use the latest version of sketchtool this must be added to the .bash_profile in the root folder.
+4. to use the latest version of sketchtool this must be added to the .bash_profile / .zprofile in the root folder.
 ```bash
 alias sketchmigrate="/Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchmigrate"
 alias sketchtool="/Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool"
