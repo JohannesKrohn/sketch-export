@@ -4,11 +4,7 @@ const gulp = require('gulp'),
     del = require('del'),
     svgSprite = require("gulp-svg-sprite"),
     svgmin = require('gulp-svgmin'),
-    iconfontCss = require('gulp-iconfont-css'),
-    iconfont = require('gulp-iconfont'),
-    runTimestamp = Math.round(Date.now() / 1000),
-    replace = require('gulp-string-replace');
-    through = require('through2'),
+    rename = require('gulp-rename'),
     fs = require('fs'),
     $fill1 = "#fff",
     $fill3 = "#39393A",
@@ -374,6 +370,12 @@ gulp.task('svgEONUI', function (complete) {
                 done();
             }
         }))//cheerio
+        .pipe(rename(function (path) {
+            // Updates the object in-place
+
+            path.basename = path.basename.replace(" ", "_");;
+
+        }))
 
         .pipe(gulp.dest(destinationPath + '/red/'))
         .pipe(cheerio({
@@ -445,46 +447,4 @@ gulp.task('svgEONUI', function (complete) {
 
 const fontName = 'eon-ui-icons' // set name of your symbol font
 const className = 'eon-ui-icons' // set class name in your CSS
-
-let unicodeTableDict = {}
-gulp.task('Iconfont', function (complete) {
-    let fontName = 'eon-ui-icons-test-with-folder';
-    let fontPath = './output/fonts/';
-
-    function createFont() {
-        return gulp.src(['./iconfont/_srcsvg/**/*.svg'])
-            .pipe(iconfont({
-                fontName: fontName, // required
-                formats: ['ttf', 'eot', 'woff', 'svg'], // default, 'woff2' and 'svg' are available
-                fontHeight: 1000,
-                normalize: true,
-                appendCodepoints: true,
-                timestamp: runTimestamp, // recommended to get consistent builds when watching files
-            }))
-            .on('glyphs', (glyphs) => {
-                unicodeTableDict = glyphs;
-                console.log( glyphs)
-
-
-            })
-            .pipe(gulp.dest(fontPath));
-
-    }
-
-    createFont();
-    complete();
-
-    /**
-     * This is needed for mapping glyphs and codepoints.
-     */
-    function mapGlyphs(glyph) {
-        return glyph.unicode[0]
-
-
-        //return { name: glyph.name, codepoint: glyph.unicode[0].charCodeAt(0) }
-    }
-
-
-})
-
 
