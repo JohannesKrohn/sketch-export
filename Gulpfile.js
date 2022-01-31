@@ -45,6 +45,8 @@ const svgoPaths = [
 
     {
         removeViewBox: false
+    },{
+        convertShapeToPath: true
     },
     {
         mergePaths: true
@@ -376,8 +378,26 @@ gulp.task('svgEONUI', function (complete) {
             path.basename = path.basename.replace(" ", "_");;
 
         }))
-
         .pipe(gulp.dest(destinationPath + '/red/'))
+
+        .pipe(cheerio({
+            parserOptions: {xmlMode: true},
+            run: ($, file, done) => {
+                $('[fill]').removeAttr('fill');
+                $('[stroke]').removeAttr('stroke');
+                $('[style]').removeAttr('style');
+                $('path, rect, circle').attr('fill', '#fff');
+                done();
+            }
+        }))//cheerio
+        .pipe(rename(function (path) {
+            // Updates the object in-place
+
+            path.basename = path.basename.replace(" ", "_");;
+
+        }))
+        .pipe(gulp.dest(destinationPath + '/white/'))
+
         .pipe(cheerio({
             parserOptions: {xmlMode: true},
             run: ($, file, done) => {
@@ -388,8 +408,8 @@ gulp.task('svgEONUI', function (complete) {
         .pipe(svgo({
             plugins: svgoPaths
         })) //svgo
-
         .pipe(gulp.dest(destinationPath + '/nofill/'))
+
         .pipe(cheerio({
             parserOptions: {xmlMode: true},
             run: ($, file, done) => {
