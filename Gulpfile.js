@@ -59,7 +59,7 @@ const svgoPaths = [
 
 function svgExportTask() {
 
-    //del('./output/svg/nofill/')
+    del('./output/svg/nofill/')
 
     const eonUIpath = 'input/SVG/';
 
@@ -81,7 +81,7 @@ function svgExportTask() {
                 $('[fill]').removeAttr('fill');
                 $('[stroke]').removeAttr('stroke');
                 $('[style]').removeAttr('style');
-                $('path, rect, circle').attr('fill', '#EA1B0A');
+                $('path, rect, circle').attr('fill', '#fff');
                 done();
             }
         }))//cheerio
@@ -90,7 +90,23 @@ function svgExportTask() {
             path.basename = path.basename.replace(" ", "_");;
 
         }))
-        .pipe(gulp.dest(destinationPath + '/red/'))
+        .pipe(gulp.dest(destinationPath + '/white/'))
+        .pipe(cheerio({
+            parserOptions: {xmlMode: true},
+            run: ($, file, done) => {
+                $('[fill]').removeAttr('fill');
+                $('[stroke]').removeAttr('stroke');
+                $('[style]').removeAttr('style');
+                $('path, rect, circle').attr('fill', '#39393a');
+                done();
+            }
+        }))//cheerio
+        .pipe(rename(function (path) {
+            // Updates the object in-place
+            path.basename = path.basename.replace(" ", "_");;
+
+        }))
+        .pipe(gulp.dest(destinationPath + '/darkgrey/'))
 
 
         .pipe(cheerio({
