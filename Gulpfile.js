@@ -85,11 +85,6 @@ function svgExportTask() {
                 done();
             }
         }))//cheerio
-        .pipe(rename(function (path) {
-            // Updates the object in-place
-            path.basename = path.basename.replace(" ", "_");;
-
-        }))
         .pipe(gulp.dest(destinationPath + '/white/'))
         .pipe(cheerio({
             parserOptions: {xmlMode: true},
@@ -101,14 +96,7 @@ function svgExportTask() {
                 done();
             }
         }))//cheerio
-        .pipe(rename(function (path) {
-            // Updates the object in-place
-            path.basename = path.basename.replace(" ", "_");;
-
-        }))
         .pipe(gulp.dest(destinationPath + '/darkgrey/'))
-
-
         .pipe(cheerio({
             parserOptions: {xmlMode: true},
             run: ($, file, done) => {
