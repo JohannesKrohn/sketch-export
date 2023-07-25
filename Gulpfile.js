@@ -56,7 +56,6 @@ const svgoPaths = [
 
 ];
 
-
 function svgExportTask() {
 
     del('./output/svg/nofill/')
