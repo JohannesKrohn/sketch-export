@@ -1,24 +1,15 @@
 # sketch-export
-A handy workflow to export from sketch
+A handy workflow to clean and minify SVG code
 
 ## Installation
 
-Gulp, Homebrew, ImageMagick and GraphicsMagick need to be installed only once.
+Gulp needs to be installed only once.
 
 1. Install Gulp (optional)
 ```bash
 npm install --global gulp-cli
 ```
-2. Install Homebrew (optional)
-```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-3. Install imagemagick & graphicsmagick (optional)
-```bash
-brew install imagemagick
-brew install graphicsmagick
-```
-5. Install dependencies
+2. Install dependencies
 ```bash
 npm install
 ```
@@ -27,7 +18,9 @@ npm install
 
 Currently there is on tasks possible
 
-1. svgExport
+```bash
+gulp svgExport
+```
 
 This will optimise all svg in the input/SVG folder and create a folder
 output
