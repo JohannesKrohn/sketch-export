@@ -7,8 +7,8 @@ const gulp = require('gulp'),
     rename = require('gulp-rename'),
     fs = require('fs'),
     $fill1 = "#fff",
-    $fill3 = "#39393A",
-    $fillRed = "#EA1B0A",
+    $fill3 = "#3A1F40",
+    $fillRed = "#FAD689",
     $fill2 = "#39393a";
 
 
@@ -91,11 +91,63 @@ function svgExportTask() {
                 $('[fill]').removeAttr('fill');
                 $('[stroke]').removeAttr('stroke');
                 $('[style]').removeAttr('style');
-                $('path, rect, circle').attr('fill', '#39393a');
+                $('path, rect, circle').attr('fill', '#FAAD66');
                 done();
             }
         }))//cheerio
-        .pipe(gulp.dest(destinationPath + '/darkgrey/'))
+        .pipe(rename(function (path) {
+            // Updates the object in-place
+            path.basename = path.basename.replaceAll(" ", "_");
+            path.basename = path.basename.replaceAll("ä", "ae");
+            path.basename = path.basename.replaceAll("ö", "oe");
+            path.basename = path.basename.replaceAll("ü", "ue");
+            path.basename = path.basename.toLowerCase();
+
+        }))
+        .pipe(gulp.dest(destinationPath + '/sunset/'))
+
+
+        .pipe(cheerio({
+            parserOptions: {xmlMode: true},
+            run: ($, file, done) => {
+                $('[fill]').removeAttr('fill');
+                $('[stroke]').removeAttr('stroke');
+                $('[style]').removeAttr('style');
+                $('path, rect, circle').attr('fill', '#3A1F40');
+                done();
+            }
+        }))//cheerio
+        .pipe(rename(function (path) {
+            // Updates the object in-place
+            path.basename = path.basename.replaceAll(" ", "_");
+            path.basename = path.basename.replaceAll("ä", "ae");
+            path.basename = path.basename.replaceAll("ö", "oe");
+            path.basename = path.basename.replaceAll("ü", "ue");
+            path.basename = path.basename.toLowerCase();
+
+        }))
+        .pipe(gulp.dest(destinationPath + '/warm nightsky/'))
+        .pipe(cheerio({
+            parserOptions: {xmlMode: true},
+            run: ($, file, done) => {
+                $('[fill]').removeAttr('fill');
+                $('[stroke]').removeAttr('stroke');
+                $('[style]').removeAttr('style');
+                $('path, rect, circle').attr('fill', '#FAD689');
+                done();
+            }
+        }))//cheerio
+        .pipe(rename(function (path) {
+            // Updates the object in-place
+            path.basename = path.basename.replaceAll(" ", "_");
+            path.basename = path.basename.replaceAll("ä", "ae");
+            path.basename = path.basename.replaceAll("ö", "oe");
+            path.basename = path.basename.replaceAll("ü", "ue");
+            path.basename = path.basename.toLowerCase();
+
+        }))
+        .pipe(gulp.dest(destinationPath + '/pale sun/'))
+
         .pipe(cheerio({
             parserOptions: {xmlMode: true},
             run: ($, file, done) => {
