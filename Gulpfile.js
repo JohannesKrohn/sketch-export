@@ -158,6 +158,15 @@ function svgExportTask() {
         .pipe(svgo({
             plugins: svgoPaths
         })) //svgo
+        .pipe(cheerio({
+            parserOptions: {xmlMode: true},
+            run: ($, file, done) => {
+                $('[fill]').removeAttr('fill');
+                $('[stroke]').removeAttr('stroke');
+                $('[style]').removeAttr('style');
+                done();
+            }
+        }))//cheerio
         .pipe(gulp.dest(destinationPath + '/nofill/'))
 
 
