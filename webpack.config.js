@@ -4,14 +4,6 @@ const fs = require('fs-extra');
 const { optimize } = require('svgo');
 const cheerio = require('cheerio');
 
-const colors = {
-    white: '#fff',
-    sunset: '#FAAD66',
-    'warm-nightsky': '#3A1F40',
-    'pale-sun': '#FAD689',
-    nofill: null,
-};
-
 class SvgExportPlugin {
     async clean(dir) {
         await fs.emptyDir(dir);
@@ -24,22 +16,19 @@ class SvgExportPlugin {
             floatPrecision: 4,
         });
 
-        for (const [folder, fillColor] of Object.entries(colors)) {
-            const $ = cheerio.load(optimized, { xmlMode: true });
+        const $ = cheerio.load(optimized, { xmlMode: true });
 
-            $('[fill],[stroke],[style]').removeAttr('fill stroke style');
-            if (fillColor) $('path, rect, circle').attr('fill', fillColor);
+        $('[fill],[stroke],[style]').removeAttr('fill stroke style');
 
-            const fileName = path.basename(filePath)
-                .replace(/\s+/g, '_')
-                .replace(/ä/g, 'ae')
-                .replace(/ö/g, 'oe')
-                .replace(/ü/g, 'ue')
-                .toLowerCase();
+        const fileName = path.basename(filePath)
+            .replace(/\s+/g, '_')
+            .replace(/ä/g, 'ae')
+            .replace(/ö/g, 'oe')
+            .replace(/ü/g, 'ue')
+            .toLowerCase();
 
-            const outPath = path.join(outputDir, folder, fileName);
-            await fs.outputFile(outPath, $.xml());
-        }
+        const outPath = path.join(outputDir, fileName);
+        await fs.outputFile(outPath, $.xml());
     }
 
     apply(compiler) {
