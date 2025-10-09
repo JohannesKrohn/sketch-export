@@ -29,6 +29,7 @@ class SvgExportPlugin {
 
         const outPath = path.join(outputDir, fileName);
         await fs.outputFile(outPath, $.xml());
+        console.log('Created:', fileName);
     }
 
     apply(compiler) {
@@ -36,6 +37,7 @@ class SvgExportPlugin {
             const inputDir = path.resolve(__dirname, 'input/SVG');
             const outputDir = path.resolve(__dirname, 'output/eonUI');
             await this.clean(outputDir);
+            console.log('🧹 Cleaned output directory');
 
             const files = await fs.readdir(inputDir);
             const svgs = files.filter((f) => f.endsWith('.svg'));

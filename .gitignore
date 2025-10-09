@@ -2,9 +2,6 @@
 .idea
 node_modules/
 output/
-assets/
-*.sketch
 package-lock.json
 input/SVG/*
 !input/SVG/.svg-export
-iconfont/
